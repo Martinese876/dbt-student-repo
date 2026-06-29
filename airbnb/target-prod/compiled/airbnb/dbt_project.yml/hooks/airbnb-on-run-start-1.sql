@@ -1,0 +1,1 @@
+TRUNCATE TABLE PROD.audit_log

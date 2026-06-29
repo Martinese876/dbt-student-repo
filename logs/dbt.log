@@ -1,0 +1,116 @@
+[0m21:55:46.722710 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 21:55:46.800105 | 3f863683-4fac-4a96-b920-d946599ec066 ==============================
+[0m21:55:46.800105 [info ] [MainThread]: Running with dbt=1.11.7
+[0m21:55:46.800886 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\pisma\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init airbnb', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:55:47.345207 [debug] [MainThread]: Starter project path: C:\data_training\dbt\dbt-student-repo\.venv\Lib\site-packages\dbt\include\starter_project
+[0m21:55:47.378673 [info ] [MainThread]: 
+Your new dbt project "airbnb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:55:47.379211 [info ] [MainThread]: Setting up your profile.
+[0m21:56:44.114471 [debug] [MainThread]: Command `dbt init` succeeded at 21:56:44.114219 after 57.46 seconds
+[0m21:56:44.114998 [debug] [MainThread]: Flushing usage events
+[0m15:39:44.633593 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 15:39:44.754789 | dfaee896-fc9a-4cf8-9e6c-03671ce262e5 ==============================
+[0m15:39:44.754789 [info ] [MainThread]: Running with dbt=1.11.7
+[0m15:39:44.755983 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\pisma\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt docs generate', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:39:44.756443 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\data_training\dbt\dbt-student-repo\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:39:44.757505 [debug] [MainThread]: Command `dbt docs generate` failed at 15:39:44.757297 after 0.22 seconds
+[0m15:39:44.757844 [debug] [MainThread]: Flushing usage events
+[0m16:04:53.020166 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 16:04:53.097480 | a05d4378-a789-43b7-9f1e-95bd4f5dcafe ==============================
+[0m16:04:53.097480 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:04:53.098241 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\pisma\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt docs serve', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:04:53.098749 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\data_training\dbt\dbt-student-repo\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:04:53.099697 [debug] [MainThread]: Command `dbt docs serve` failed at 16:04:53.099556 after 0.14 seconds
+[0m16:04:53.100054 [debug] [MainThread]: Flushing usage events
+[0m16:05:02.416150 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 16:05:02.491756 | 8277cd8a-2479-46ef-bd1b-68078f8d3c88 ==============================
+[0m16:05:02.491756 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:05:02.492561 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\pisma\\.dbt', 'invocation_command': 'dbt docs generate', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:05:02.493061 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\data_training\dbt\dbt-student-repo\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:05:02.494103 [debug] [MainThread]: Command `dbt docs generate` failed at 16:05:02.493963 after 0.14 seconds
+[0m16:05:02.494430 [debug] [MainThread]: Flushing usage events
+[0m08:43:49.790570 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 08:43:49.918341 | 6d5bbf03-0035-4c58-af3c-e93a340a8e45 ==============================
+[0m08:43:49.918341 [info ] [MainThread]: Running with dbt=1.11.7
+[0m08:43:49.919469 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\pisma\\.dbt', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m08:43:49.919972 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\data_training\dbt\dbt-student-repo\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m08:43:49.920895 [debug] [MainThread]: Command `dbt run` failed at 08:43:49.920765 after 0.22 seconds
+[0m08:43:49.921211 [debug] [MainThread]: Flushing usage events
+[0m10:44:39.322171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0DBBAB8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0DD00FC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0DD00F750>]}
+
+
+============================== 10:44:39.331441 | 278510e9-2f46-497d-bb84-8ec7c634913c ==============================
+[0m10:44:39.331441 [info ] [MainThread]: Running with dbt=1.11.7
+[0m10:44:39.332844 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': '_prod_profiles', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug --profiles-dir _prod_profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m10:44:39.377172 [info ] [MainThread]: dbt version: 1.11.7
+[0m10:44:39.377814 [info ] [MainThread]: python version: 3.13.14
+[0m10:44:39.378126 [info ] [MainThread]: python path: C:\data_training\dbt\dbt-student-repo\.venv\Scripts\python.exe
+[0m10:44:39.378393 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m10:44:39.379061 [info ] [MainThread]: Using profiles dir at _prod_profiles
+[0m10:44:39.380102 [info ] [MainThread]: Using profiles.yml file at _prod_profiles\profiles.yml
+[0m10:44:39.380786 [info ] [MainThread]: Using dbt_project.yml file at C:\data_training\dbt\dbt-student-repo\dbt_project.yml
+[0m10:44:39.381746 [info ] [MainThread]: Configuration:
+[0m10:44:39.382438 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m10:44:39.383182 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:44:39.383861 [info ] [MainThread]: Required dependencies:
+[0m10:44:39.384564 [debug] [MainThread]: Executing "git --help"
+[0m10:44:39.428975 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:44:39.429785 [debug] [MainThread]: STDERR: "b''"
+[0m10:44:39.430445 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:44:39.431233 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m10:44:39.431936 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m10:44:39.432531 [info ] [MainThread]: dbt looked for a profiles.yml file in _prod_profiles\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m10:44:39.433052 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\data_training\dbt\dbt-student-repo\dbt_project.yml> not found
+
+[0m10:44:39.434793 [debug] [MainThread]: Command `dbt debug` failed at 10:44:39.434337 after 0.31 seconds
+[0m10:44:39.435417 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0DD02F360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0DE024830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0DCEA7CE0>]}
+[0m10:44:39.435940 [debug] [MainThread]: Flushing usage events
+[0m10:44:40.049608 [debug] [MainThread]: An error was encountered while trying to flush usage events
